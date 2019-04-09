@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/menu_announcement"
+        android:title="@string/announcement"
+        android:icon = "@drawable/ic_announcement_black_24dp"
+        app:showAsAction="always"
+        android:orderInCategory="1"/>
+    <item android:id="@+id/menu_add"
+        android:title="@string/add"
+        android:icon="@drawable/ic_add_circle_black_24dp"
+        app:showAsAction="never"
+        android:orderInCategory="2"/>
+    <item android:id="@+id/menu_delete"
+        android:title="@string/delete"
+        android:icon="@drawable/ic_delete_black_24dp"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="3"/>
+    <item android:id="@+id/menu_change_language"
+        android:title="@string/setting_language"
+        android:icon="@drawable/ic_settings_applications_black_24dp"
+        app:showAsAction="withText"
+        android:orderInCategory="4"/>
+</menu>

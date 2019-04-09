@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Contoh Action Bar</string>
+    <string name="announcement">Pengumuman</string>
+    <string name="add">Tambah</string>
+    <string name="delete">Hapus</string>
+    <string name="setting_language">Pengaturan Bahasa</string>
+</resources>
